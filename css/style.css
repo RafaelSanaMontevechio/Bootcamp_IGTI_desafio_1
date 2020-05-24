@@ -1,0 +1,103 @@
+body {
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+h4 {
+  margin-left: 15px;
+}
+
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #2cbbad;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.users {
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.users-found {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.user {
+  width: auto;
+  padding: 10px;
+  display: flex;
+}
+.user p {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.statistics {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 220px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+/*.header {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 20px 0;
+}
+
+.input-search {
+  padding: 2px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 10%;
+  height: 2em;
+}
+
+
+
+
+
+
+.info {
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+ */
